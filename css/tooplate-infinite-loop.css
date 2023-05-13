@@ -5,7 +5,9 @@ Tooplate 2117 Infinite Loop
 https://www.tooplate.com/view/2117-infinite-loop
 
 */
-
+#infinite {
+  background-position: center;
+}
 @import url("https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700,900");
 
 body {
@@ -161,13 +163,13 @@ blockquote {
 
 @media (min-height: 830px) {
   #infinite {
-    background-position: center -210px;
+    background-position: center ;
   }
 }
 
 @media (min-height: 680px) and (max-height: 829px) {
   #infinite {
-    background-position: center -300px;
+    background-position: center ;
   }
 }
 
@@ -193,7 +195,7 @@ blockquote {
 }
 
 .tm-hero-text-container-inner {
-  margin-top: -150px;
+  margin-top: 15%;
  
 }
 
